@@ -192,7 +192,7 @@ export function Navbar() {
                   <input
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="BT ID search"
+                    placeholder="Search BT ID"
                     className="h-10 w-full rounded-full border border-ink/10 bg-white pl-9 pr-3 text-sm outline-none focus:border-brand-400"
                   />
                 </div>

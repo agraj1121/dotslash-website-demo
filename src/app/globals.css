@@ -29,7 +29,6 @@
   }
 }
 
-/* Respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -39,7 +38,7 @@
   }
 }
 
-/* Thin custom scrollbar for horizontal update rails */
+
 .rail-scroll::-webkit-scrollbar {
   height: 6px;
 }

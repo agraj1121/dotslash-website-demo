@@ -18,7 +18,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "DotSlash — Master CP and DSA",
   description:
-    "DotSlash is your college hub for competitive programming and DSA — problem sets, roadmaps, leaderboards and more.",
+    "DotSlash is IIITN's Club for competitive programming and DSA — problem sets, roadmaps, leaderboards and more.",
   icons: { icon: "/logo-mark.png" },
 };
 
