@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-ink/10;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  ::selection {
+    @apply bg-brand-300/60 text-ink;
+  }
+}
+
+@layer utilities {
+  .section-pad {
+    @apply px-6 md:px-10 lg:px-16;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Thin custom scrollbar for horizontal update rails */
+.rail-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.rail-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(244, 118, 60, 0.35);
+  border-radius: 999px;
+}
+.rail-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}

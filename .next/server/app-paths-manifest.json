@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/news/page": "app/news/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/announcements/page": "app/announcements/page.js",
+  "/legacy/page": "app/legacy/page.js",
+  "/profile/page": "app/profile/page.js"
+}
