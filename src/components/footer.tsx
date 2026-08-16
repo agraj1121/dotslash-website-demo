@@ -94,7 +94,7 @@ export function Footer() {
       <div className="border-t border-cream-soft/10 py-5">
         <div className="container flex flex-col items-center justify-between gap-2 text-xs text-cream-soft/45 md:flex-row">
           <p>© {new Date().getFullYear()} DotSlash</p>
-          <p>Made with 🧡 by <a className="underline text-orange-500">The Website Team</a></p>
+          <p>Made with 🧡 by <a href = "#" className="underline text-orange-500 cursor-pointer">The Website Team</a></p>
         </div>
       </div>
     </footer>
