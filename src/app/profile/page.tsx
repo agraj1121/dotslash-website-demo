@@ -4,7 +4,7 @@ export default function ProfilePage() {
   return (
     <ComingSoon
       title="Profile"
-      description="One profile. Every platform. Your entire CP journey, unified."
+      description="One profile. Every platform. Your entire CP/DSA journey, unified."
     />
   );
 }

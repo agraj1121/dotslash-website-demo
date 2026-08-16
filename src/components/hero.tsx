@@ -42,7 +42,7 @@ export function Hero() {
             variants={fadeUp}
             className="text-balance font-display text-5xl font-extrabold leading-[1.05] text-ink md:text-6xl"
           >
-            Master CP and DSA{" "}
+            Master Coding and DSA{" "}
             <span className="bg-gradient-to-r from-brand-500 to-brand-300 bg-clip-text text-transparent">
               with DotSlash.
             </span>
@@ -89,30 +89,30 @@ export function Hero() {
 
           <div className="relative overflow-hidden rounded-2xl border border-ink/5 bg-white p-6 shadow-card">
 
-            <div className="flex items-center justify-between opacity-30 blur-[2px]">
+            <div className="flex items-center justify-between opacity-90 blur-[1.5px]">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-widest text-ink/50">
+                <p className="text-xs font-extrabold uppercase tracking-widest text-ink/60">
                   CP/DSA Profile
                 </p>
                 <p className="mt-1 font-display text-lg font-bold">Student Name</p>
               </div>
               <div className="text-right">
-                <p className="text-xs text-ink/50">Ratings</p>
+                <p className="text-xs text-ink/80">Ratings</p>
                 <p className="font-display text-xl font-bold text-brand-500">--.--</p>
               </div>
             </div>
-            <div className="mt-6 grid grid-cols-2 gap-3 opacity-30 blur-[2px]">
+            <div className="mt-6 grid grid-cols-2 gap-3 opacity-90 blur-[1.5px]">
               {["Codeforces Rank", "Solved Problems", "Rating Graph", "Leaderboard Rank"].map(
                 (label) => (
                   <div key={label} className="rounded-xl bg-brand-50 p-3">
-                    <p className="text-[11px] text-ink/50">{label}</p>
+                    <p className="text-[11px] text-ink/80">{label}</p>
                     <p className="font-display text-sm font-bold">----</p>
                   </div>
                 )
               )}
             </div>
 
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-cream-soft/85 backdrop-blur-[2px]">
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-cream-soft/85 backdrop-blur-[1.5px]">
               <Image
                 src="/logo-mark.png"
                 alt="DotSlash"

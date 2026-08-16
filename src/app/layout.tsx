@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "DotSlash — Master CP and DSA",
+  title: "DotSlash — Master Coding and DSA",
   description:
     "DotSlash is IIITN's Club for competitive programming and DSA — problem sets, roadmaps, leaderboards and more.",
   icons: { icon: "/logo-mark.png" },

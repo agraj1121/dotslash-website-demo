@@ -39,7 +39,7 @@ export function AboutSection() {
               A shared ground for everyone chasing better DSA.
             </h2>
             <p className="mt-4 max-w-md text-ink/60">
-              DotSlash info here...
+              DotSlash Community is IIIT Nagpur's coding, DSA, and competitive programming club. Since 2018, DotSlash has provided a structured, supported way to get better at problem-solving and the art of programming. Our mission is to create an inclusive learning environment where students can develop their programming skills and engage in competitive coding — with the vision of becoming the leading coding community that produces skilled programmers, innovative thinkers, and future competitive programmers.
             </p>
           </motion.div>
 
